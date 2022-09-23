@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<!-- Head of the HTML (Screen optimisation, linking of java script, linking of CSS stylesheet and sidbar menu contents) -->
+
+<head>
+    <link rel="stylesheet" href="./Task_2.css" />
+    <script src="./Task_3.js"></script>
+
+    <div class="sidenav">
+		<a href="Honda_civic.html">Honda</a>
+		<a href="Mazda_compact_range.html">Mazda</a>
+		<a href="Nissan_Zranges.html">Nissan</a>
+		<a href="Mercedes_C_Class.html">Mercedes</a>
+		<a href="Audi_Range.html">Audi</a>
+		<a href="Favorites_page.html">About us</a>
+
+	</div>
+
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+</head>
+
+<!-- Body of the html (All the content of the page that you are able to see + techincal connections made to other pages using 'href') -->
+
+<body>
+
+    <!-- Time Display Vue implementation -->
+    <div class="optimisation">
+        <button onclick="getDate()">Display time</button>
+        <p id="date"></p>
+
+        <!-- CarGeeks logo that will take you back to the main page-->
+        <a href="Index.html">
+            <h1> CarGeeks </h1>
+        </a>
+
+        <!-- Header + introduction-->
+        <h3> Audi Compact Range </h3>
+
+        <p1>Welcome to the information page of the Audi Compact Range!</p1>
+    </div>
+
+
+    <!-- History Summary -->
+    <h4>The company traces its origins back to 1899 and August Horch. The first Horch automobile was produced in 1901 in
+        Zwickau, in former East Germany. In 1910, Horch was forced out of the company he had founded. He then started a
+        new company in Zwickau and continued using the Horch brand. His former partners sued him for trademark
+        infringement and a German court determined that the Horch brand belonged to his former company. August Horch was
+        forced to refrain from using his own family name in his new car business. As the word “Horch!” translates to
+        “listen!” in German, August Horch settled on the Latin equivalent of his name – “Audi!”. This information was
+        provided by: https://paceautowerks.com.au/audi-history/</h4>
+
+
+
+    <!-- Image implementation + Video implementaion + Audio implemention-->
+    <img src="file:///Users/romfriedman/Desktop/prac/Trimester%202%20-%202022/introduction%20to%20responsive%20web%20apps/Assigment%203/Project%20images/Audi%20A5.jpeg"
+        alt="Nissan 350Z" width=600 hieght=500>
+
+
+    <audio controls autoplay>
+        <source src="Project Audio/Audi Compact engine sound.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <iframe width="670" height="335" src="https://www.youtube.com/embed/VxD743g4C-4">
+    </iframe>
+
+    <!-- Price information implementaion -->
+    <div class="optimisation">
+        <h2> Prices for the Audi Compact Range</h2>
+
+        <table>
+
+            <table>
+                <tr>
+                    <th>Audi A3</th>
+                    <th>Audi A4 </th>
+                    <th>Audi A5</th>
+                </tr>
+                <tm>
+                    <td style="color:green;"> Price : $47,100 </td>
+                    <td style="color:rgb(235, 235, 16);"> Price : $59,900</td>
+                    <td style="color:red;"> Price : $116,100</td>
+                </tm>
+            </table>
+
+</body>
+
+</html>

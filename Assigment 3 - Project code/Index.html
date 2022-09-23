@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Head of the HTML (Screen optimisation, linking of java script, linking of CSS stylesheet and sidbar menu contents) -->
+
+<head>
+	<link rel="stylesheet" href="./Task_2.css" />
+	<script src="./Task_3.js"></script>
+
+	<div class="sidenav">
+		<a href="Honda_civic.html">Honda</a>
+		<a href="Mazda_compact_range.html">Mazda</a>
+		<a href="Nissan_Zranges.html">Nissan</a>
+		<a href="Mercedes_C_Class.html">Mercedes</a>
+		<a href="Audi_Range.html">Audi</a>
+		<a href="Favorites_page.html">About us</a>
+
+	</div>
+
+
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+</head>
+
+
+<!-- Body of the html (All the content of the page that you are able to see + techincal connections made to other pages using 'href') -->
+
+<body>
+
+	<!-- Login display implementation-->
+	<div style="margin-left: 80%;">
+
+		<h2 style="color:#b1050d; font-size: small;"> Email Address</h2>
+		<input v-model="name" type="email" placeholder="Enter email" />
+
+		<h2 style="color:#b1050d; font-size: small;"> Password</h2>
+		<input type="password" placeholder="Enter Password" />
+		</form>
+	</div>
+
+	<button type="button">Login</button>
+
+	<!-- Car search implementation (search bar + search list implementation (Inspired by W3Schools.com) )-->
+	<h2> Car Finder</h2>
+
+	<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for cars..." title="Type in a car">
+
+	<table id="myTable">
+		<tr class="header">
+			<th style="width:100%;">Car Model</th>
+		</tr>
+
+		<tr>
+			<td><a href="Audi_Range.html">Audi Compact Range</td></a>
+		</tr>
+
+		<tr>
+			<td><a href="Bugatti_Range.html">Bugatti Range</td></a>
+		</tr>
+
+		<tr>
+			<td><a href="Honda_civic.html">Honda Civic Range</td></a>
+		</tr>
+
+		<tr>
+			<td><a href="Mercedes_C_Class.html">Mercedes C-Class Range </td></a>
+		</tr>
+
+		<tr>
+			<td><a href="Mazda_compact_range.html">Mazda Compact Range </td></a>
+		</tr>
+
+		<tr>
+			<td><a href="Nissan_Zranges.html">Nissan Z Range </td></a>
+		</tr>
+
+	</table>
+
+	<!-- Heading + introduction-->
+	<a href="Index.html">
+		<h1> CarGeeks </h1>
+	</a>
+
+	<index_message> Welcome to CarGeeks! Select/search a car from below to learn more about.</index_message>
+
+	<!-- Clickable car images implementation that will take you to the cars dedicated page-->
+	<div class="col1">
+		<a href="Honda_civic.html"> <img
+				src="file:///Users/romfriedman/Desktop/prac/Trimester%202%20-%202022/introduction%20to%20responsive%20web%20apps/Assigment%203/Project%20images/Honda_Civic_RS.jpeg"
+				width="300" height="300"></img></a>
+		<h5>Honda Civic Range</h5>
+	</div>
+
+	<div class="col2">
+		<a href="Nissan_Zranges.html"> <img
+				src="file:///Users/romfriedman/Desktop/prac/Trimester%202%20-%202022/introduction%20to%20responsive%20web%20apps/Assigment%203/Project%20images/Nissan%20370z.jpeg"
+				width="300" height="300"></img></a>
+		<h6> Nissan Z Range</h6>
+
+	</div>
+	<div class="col3">
+		<a href="Mazda_compact_range.html"> <img
+				src="file:///Users/romfriedman/Desktop/prac/Trimester%202%20-%202022/introduction%20to%20responsive%20web%20apps/Assigment%203/Project%20images/0f10bedd.webp"
+				width="300" height="300"></img></a>
+		<h7>Mazda Compact Range</h7>
+	</div>
+
+	</div>
+	<div class="col3">
+		<a href="Mercedes_C_Class.html"> <img
+				src="file:///Users/romfriedman/Desktop/prac/Trimester%202%20-%202022/introduction%20to%20responsive%20web%20apps/Assigment%203/Project%20images/Mercedes%20C-Class.webp"
+				width="300" height="300"></img></a>
+		<h5>Mercedes C-Class Range</h5>
+	</div>
+
+	<div class="col2">
+		<a href="Audi_Range.html"> <img
+				src="file:///Users/romfriedman/Desktop/prac/Trimester%202%20-%202022/introduction%20to%20responsive%20web%20apps/Assigment%203/Project%20images/Audi%20A5.jpeg"
+				width="300" height="300"></img></a>
+		<h6> Audi Compact Range</h6>
+	</div>
+
+	<div class="col1">
+		<a href="Bugatti_Range.html"> <img
+				src="file:///Users/romfriedman/Desktop/prac/Trimester%202%20-%202022/introduction%20to%20responsive%20web%20apps/Assigment%203/Project%20images/Bugatti%20Divo.png"
+				width="300" height="300"></img></a>
+		<h7 style="margin-left: 50px"> Bugatti Range</h7>
+	</div>
+
+	<div id="app">
+	<h2> Checkboxes - Pick Your Favorite Brand</p>
+	<input type="checkbox" id="Rom" value="1" v-model="checkedNames"/>
+	<label for="Rom">Bugatti</label>
+
+	<input type="checkbox" id="Oli" value="2" v-model="checkedNames"/>
+	<label for="Oli">Mazda</label>
+	
+	<input type="checkbox" id="James" value="3" v-model="checkedNames"/>
+	<label for="James">Nissan</label>
+	<br />
+	<span> Checked names: {{checkedNames}}</span>
+	</div>
+
+</body>
+
+</html>

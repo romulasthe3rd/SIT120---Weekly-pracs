@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Head of the HTML (Screen optimisation, linking of java script, linking of CSS stylesheet and sidbar menu contents) -->
+
+<head>
+	<link rel="stylesheet" href="./Task_2.css" />
+	<script src="./Task_3.js"></script>
+
+	<div class="sidenav">
+		<a href="Honda_civic.html">Honda</a>
+		<a href="Mazda_compact_range.html">Mazda</a>
+		<a href="Nissan_Zranges.html">Nissan</a>
+		<a href="Mercedes_C_Class.html">Mercedes</a>
+		<a href="Audi_Range.html">Audi</a>
+		<a href="Favorites_page.html">About us</a>
+
+	</div>
+
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+</head>
+
+<!-- Body of the html (All the content of the page that you are able to see + techincal connections made to other pages using 'href') -->
+
+<body>
+
+	<!-- Time Display Vue implementation -->
+	<div class="optimisation">
+		<button onclick="getDate()">Display time</button>
+		<p id="date"></p>
+
+		<!-- CarGeeks logo that will take you back to the main page-->
+		<a href="Index.html">
+			<h1> CarGeeks </h1>
+		</a>
+
+		<!-- Header + introduction-->
+		<h3> Nissan Z Range </h3>
+
+		<p1>Welcome to the information page of the Nissan Z Range!</p1>
+	</div>
+
+
+	<!-- History Summary -->
+	<h4>
+		The Datsun/Nissan Z-car, introduced as the 240Z as the 1960s sputtered to a close, now ranks in the pantheon of
+		great Japanese things, right up there alongside Nikon cameras, fatty tuna sushi, Katana swords, and Mothra.
+		There wasn’t anything particularly new about the 240Z; it was built of ordinary and familiar parts. But it drove
+		so well and was built so well that it elevated consumers’ expectations for all sports cars. It was a better
+		Datsun—and Nissan—that would eventually inspire better Porsches, better Corvettes, and better Jaguars. But
+		Nissan didn’t have the spiritual fortitude to stick with the Z’s original mojo. The disco temptation was
+		impossible to fight during the 1970s, and the Z became the ZX. Crushed velour upholstery, T-tops, and a flabby
+		suspension came with it. Then Nissan changed its mind again. This information was provided by:
+		https://www.caranddriver.com/features/g15377615/my-fair-lady-a-visual-history-of-the-nissan-z-car/
+	</h4>
+
+	<!-- Image implementation + Video implementaion + Audio implemention-->
+	<img src="file:///Users/romfriedman/Desktop/prac/Trimester%202%20-%202022/introduction%20to%20responsive%20web%20apps/Assigment%203/Project%20images/Nissan%20350z.jpeg"
+		alt="Nissan 350Z" width=600 hieght=500>
+
+
+	<audio controls autoplay>
+		<source src="Project Audio/Nissan Z Range Engine.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+
+	<iframe width="670" height="335" src="https://www.youtube.com/embed/jWYf2DxFHa4">
+	</iframe>
+
+	<!-- Price information implementaion -->
+	<div class="optimisation">
+		<h2> Prices for the honda civic range</h2>
+
+		<table>
+
+			<table>
+				<tr>
+					<th>Nissan 350Z</th>
+					<th>Nissan 370Z </th>
+					<th>All-New Z</th>
+				</tr>
+				<tm>
+					<td style="color:green;"> Price : $13,471.64 </td>
+					<td style="color:rgb(235, 235, 16);"> Price : $33,203</td>
+					<td style="color:red;"> Price : $80,095</td>
+				</tm>
+			</table>
+
+</body>
+
+</html>

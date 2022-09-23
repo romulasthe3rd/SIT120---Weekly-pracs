@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Head of the HTML (Screen optimisation, linking of java script, linking of CSS stylesheet and sidbar menu contents) -->
+
+<head>
+	<link rel="stylesheet" href="./Task_2.css" />
+	<script src="./Task_3.js"></script>
+
+	<div class="sidenav">
+		<a href="Honda_civic.html">Honda</a>
+		<a href="Mazda_compact_range.html">Mazda</a>
+		<a href="Nissan_Zranges.html">Nissan</a>
+		<a href="Mercedes_C_Class.html">Mercedes</a>
+		<a href="Audi_Range.html">Audi</a>
+		<a href="Favorites_page.html">About us</a>
+
+	</div>
+
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+</head>
+
+<!-- Body of the html (All the content of the page that you are able to see + techincal connections made to other pages using 'href') -->
+
+
+<body>
+
+	<!-- Time Display Vue implementation -->
+	<div class="optimisation">
+		<button onclick="getDate()">Display time</button>
+		<p id="date"></p>
+
+		<!-- CarGeeks logo that will take you back to the main page-->
+
+		<a href="Index.html">
+			<h1> CarGeeks </h1>
+		</a>
+
+		<!-- Header + introduction-->
+		<h3> Honda Civic</h3>
+
+		<p1>Welcome to the information page of the Honda Civic!</p1>
+	</div>
+
+
+	<!-- History Summary -->
+
+	<h4>
+		It might seem odd to fawn over an economy car, but where the Honda Civic is concerned, it has earned our
+		respect. When it debuted in 1972, Americans were listening to Carole King records the size of the Civic's first
+		wheels. It was a weird decade, but in a country of bell-bottoms and roller skates along came a Japanese
+		hatchback with a transversely mounted 1.2-liter engine. The first Civic was everything other small cars weren't.
+		The Chevrolet Vega and Ford Pinto were rolling sacrifices amid an international fuel crisis, but the small and
+		efficient Civic felt like perfect timing. It was also fun to drive, something that's still true today. Enjoy
+		this brief history of the legendary H-badge lineage, from its humble beginnings to its high-performance
+		adolescence. This information was provided by:
+		https://www.caranddriver.com/features/g15381133/honda-civic-models-history/
+	</h4>
+
+	<!-- Image implementation + Video implementaion + Audio implemention-->
+	<img src="file:///Users/romfriedman/Desktop/prac/Trimester%202%20-%202022/introduction%20to%20responsive%20web%20apps/Assigment%203/Project%20images/Honda_Civic_RS.jpeg"
+		alt="Honda civic rs" width=600 hieght=500>
+
+
+	<audio controls autoplay>
+		<source src="Project Audio/Honda civic engine.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+
+	<iframe width="670" height="335" src="https://www.youtube.com/embed/lHVjgtE836I">
+	</iframe>
+
+	<!-- Price information implementaion -->
+	<div class="optimisation">
+		<h2> Prices for the honda civic range</h2>
+
+		<table>
+
+			<table>
+				<tr>
+					<th>Honda civic</th>
+					<th>Honda Accord </th>
+					<th>Honda insight</th>
+				</tr>
+				<tm>
+					<td style="color:green;"> Price : $22,550 </td>
+					<td style="color:rgb(235, 235, 16);"> Price : $26,520</td>
+					<td style="color:red;"> Price : $25,760</td>
+				</tm>
+			</table>
+
+</body>
+
+</html>

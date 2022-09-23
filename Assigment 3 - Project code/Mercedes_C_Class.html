@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Head of the HTML (Screen optimisation, linking of java script, linking of CSS stylesheet and sidbar menu contents) -->
+
+<head>
+    <link rel="stylesheet" href="./Task_2.css" />
+    <script src="./Task_3.js"></script>
+
+    <div class="sidenav">
+		<a href="Honda_civic.html">Honda</a>
+		<a href="Mazda_compact_range.html">Mazda</a>
+		<a href="Nissan_Zranges.html">Nissan</a>
+		<a href="Mercedes_C_Class.html">Mercedes</a>
+		<a href="Audi_Range.html">Audi</a>
+		<a href="Favorites_page.html">About us</a>
+
+	</div>
+
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+</head>
+
+<!-- Body of the html (All the content of the page that you are able to see + techincal connections made to other pages using 'href') -->
+
+<body>
+
+    <!-- Time Display Vue implementation -->
+    <div class="optimisation">
+        <button onclick="getDate()">Display time</button>
+        <p id="date"></p>
+
+        <!-- CarGeeks logo that will take you back to the main page-->
+        <a href="Index.html">
+            <h1> CarGeeks </h1>
+        </a>
+
+        <!-- Header + introduction-->
+        <h3> Mercedes C-Class Range </h3>
+
+        <p1>Welcome to the information page of the Mercedes C-Class Range!</p1>
+    </div>
+
+
+    <!-- History Summary -->
+    <h4>
+        The Mercedes-Benz C-Class is a series of compact executive cars produced by Mercedes-Benz Group AG. Introduced
+        in 1993 as a replacement for the 190 (W201) range, the C-Class was the smallest model in the marque's line-up
+        until the W168 A-Class arrived in 1997. The C-Class has been available with a "4MATIC" four-wheel drive option
+        since 2002. The third generation (W204) was launched in 2007 while the current W206 generation was launched in
+        2021. Initially available in sedan and a station wagon configurations, a fastback coupé (SportCoupé) variant
+        followed and was later renamed to Mercedes-Benz CLC-Class. It remained in production until 2011 when a new W204
+        C-Class coupé replaced it for the 2012 model year. This Information was provided by:
+        https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class#:~:text=Introduced%20in%201993%20as%20a,wheel%20drive%20option%20since%202002
+    </h4>
+
+    <!-- Image implementation + Video implementaion + Audio implemention-->
+    <img src="file:///Users/romfriedman/Desktop/prac/Trimester%202%20-%202022/introduction%20to%20responsive%20web%20apps/Assigment%203/Project%20images/Mercedes%20C-Class.webp"
+        alt="Nissan 350Z" width=600 hieght=500>
+
+
+    <audio controls autoplay>
+        <source src="Project Audio/Mercedes C-Class Engine Sound.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <iframe width="670" height="335" src="https://www.youtube.com/embed/aoaKTb78dxQ">
+    </iframe>
+
+    <!-- Price information implementaion -->
+    <div class="optimisation">
+        <h2> Prices for the Mercedes C-Class</h2>
+
+        <table>
+
+            <table>
+                <tr>
+                    <th>Mercedes C-200</th>
+                    <th>Mercedes C-250 </th>
+                    <th>Mercedes C-500</th>
+                </tr>
+                <tm>
+                    <td style="color:green;"> Price : $55,300 </td>
+                    <td style="color:rgb(235, 235, 16);"> Price : $66,900</td>
+                    <td style="color:red;"> Price : $244,700</td>
+                </tm>
+            </table>
+
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- Head of the HTML (Screen optimisation, linking of java script, linking of CSS stylesheet and sidbar menu contents) -->
+
+<head>
+	<link rel="stylesheet" href="./Task_2.css" />
+	<script src="./Task_3.js"></script>
+
+	<div class="sidenav">
+		<a href="Honda_civic.html">Honda</a>
+		<a href="Mazda_compact_range.html">Mazda</a>
+		<a href="Nissan_Zranges.html">Nissan</a>
+		<a href="Mercedes_C_Class.html">Mercedes</a>
+		<a href="Audi_Range.html">Audi</a>
+		<a href="Favorites_page.html">About us</a>
+
+	</div>
+
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+</head>
+
+<!-- Body of the html (All the content of the page that you are able to see + techincal connections made to other pages using 'href') -->
+
+<body>
+
+	<!-- Time Display Vue implementation -->
+	<div class="optimisation">
+		<button onclick="getDate()">Display time</button>
+		<p id="date"></p>
+
+		<!-- CarGeeks logo that will take you back to the main page-->
+		<a href="Index.html">
+			<h1> CarGeeks </h1>
+		</a>
+
+		<!-- Header + introduction-->
+		<h3> Bugatti Range </h3>
+
+		<p1>Welcome to the information page of the Bugatti Range!</p1>
+	</div>
+
+
+	<!-- History Summary -->
+	<h4>
+		Bugatti founded in 1909 by Ettore Bugatti is a maker of high end limited edition super fast cars. Volkswagen
+		Group, the German auto giant took possession of the French automobile company in the year 2000, under Volkswagen
+		France. Bugatti is now entering the Indian market with Bugatti Veyron, the world's fastest car.Founded in
+		Molsheim (then Germany, today France) in 1909 by Ettore Bugatti, Bugatti is a manufacturer of high end
+		performance automobiles that has to its credit making the fastest and the most exclusive cars in the world.
+		Bugatti was bought off in the year 1960 for its airplane parts business. The company that once struggled
+		financially is now associated with class, luxury and wealth. This information was provided by:
+		https://www.cardekho.com/Bugatti/history.htm#:~:text=Bugatti%20founded%20in%201909%20by,Veyron%2C%20the%20world's%20fastest%20car
+	</h4>
+
+	<!-- Image implementation + Video implementaion + Audio implemention-->
+	<img src="file:///Users/romfriedman/Desktop/prac/Trimester%202%20-%202022/introduction%20to%20responsive%20web%20apps/Assigment%203/Project%20images/Bugatti%20Divo.png"
+		alt="Nissan 350Z" width=600 hieght=500>
+
+
+	<audio controls autoplay>
+		<source src="Project Audio/Bugatti_Divo Engine Sound.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+
+	<iframe width="670" height="335" src="https://www.youtube.com/embed/LAWt2yrGq98">
+	</iframe>
+
+	<!-- Price information implementaion -->
+	<div class="optimisation">
+		<h2> Prices for the Bugatti Range</h2>
+
+		<table>
+
+			<table>
+				<tr>
+					<th>Bugatti Veyron</th>
+					<th>Bugatti Chiron </th>
+					<th>Bugatti Divo</th>
+				</tr>
+				<tm>
+					<td style="color:green;"> Price : $2.5 million </td>
+					<td style="color:rgb(235, 235, 16);"> Price : $3.3 million</td>
+					<td style="color:red;"> Price : $5.7 million</td>
+				</tm>
+			</table>
+
+</body>
+
+</html>
